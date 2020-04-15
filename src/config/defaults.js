@@ -12,7 +12,7 @@ YASME.defaults = $.extend(true, {}, YASME.defaults, {
   /**
 	 *  Default shape 
 	 */
-  value:  "<https://www.wikidata.org/wiki/Q51602692>",
+  value:  "<https://www.wikidata.org/wiki/Q51602692>@start",
   highlightSelectionMatches: {
     showToken: /\w/
   },

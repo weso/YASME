@@ -25,8 +25,6 @@ div.CodeMirror span.CodeMirror-nonmatchingbracket {color: #f22;}
   /* Used to force a border model for a node */
   /* See issue #2901 */
   /* Help users use markselection to safely style text background */ }
-  .yasme .cm-s-wiki .cm-shape {
-    color: #0F7A50; }
   .yasme .cm-s-wiki .cm-keyword {
     color: #f00; }
   .yasme .cm-s-wiki .cm-atom {
@@ -46,7 +44,8 @@ div.CodeMirror span.CodeMirror-nonmatchingbracket {color: #f22;}
     color: #05a; }
   .yasme .cm-s-wiki .cm-comment {
     color: #999; }
-  .yasme .cm-s-wiki .cm-string {
+  .yasme WS
+.cm-s-wiki .cm-string {
     color: #b98003; }
   .yasme .cm-s-wiki .cm-string-2 {
     color: #05a; }
@@ -126,7 +125,7 @@ div.CodeMirror span.CodeMirror-nonmatchingbracket {color: #f22;}
   .yasme .cm-s-dark .cm-logical {
     color: #B271FF; }
   .yasme .cm-s-dark .cm-at {
-    color: #68eb7a; }
+    color: #5ceb68; }
   .yasme .cm-s-dark .cm-prefixDelcAlias {
     color: #f8c4ffc0; }
   .yasme .cm-s-dark .cm-prefixDelcIRI {
