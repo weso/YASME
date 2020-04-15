@@ -1,53 +1,53 @@
 /* DARK THEME  */
 
-.cm-s-dark-map.CodeMirror { 
-  background: #2B2B2B; 
-  color: #A9B7C6; 
-  border: 10px;
+.cm-s-darkMap.CodeMirror { 
+  background: #2B2B2B!important; 
+  color: #A9B7C6!important; 
+  border: 10px!important;
 }
 
 
-.cm-s-dark-map .cm-shape {color: #68BEEB;}
+.cm-s-darkMap .cm-shape {color: #68BEEB!important ;}
 
-.cm-s-dark-map .cm-keyword {color: #f00;}
-.cm-s-dark-map .cm-atom {color: #219;}
-.cm-s-dark-map .cm-number {color: #E5F439;}
-.cm-s-dark-map .cm-def {color: #00f;}
-.cm-s-dark-map .cm-variable,
-.cm-s-dark-map .cm-punctuation,
-.cm-s-dark-map .cm-property,
-.cm-s-dark-map .cm-operator {color: #05a;}
-.cm-s-dark-map .cm-variable-2 {color: #68BEEB;}
-.cm-s-dark-map .cm-variable-3 {color: #68BEEB;}
-.cm-s-dark-map .cm-comment {color: #999;}
-.cm-s-dark-map .cm-string {color: rgb(185, 128, 3);}
-.cm-s-dark-map .cm-string-2 {color: #7DB647;}
-.cm-s-dark-map .cm-meta {color: #555;}
-.cm-s-dark-map .cm-qualifier {color: #555;}
-.cm-s-dark-map .cm-builtin {color: #30a;}
-.cm-s-dark-map .cm-bracket {color: #997;}
-.cm-s-dark-map .cm-tag {color: #170;}
-.cm-s-dark-map .cm-attribute {color: #00c;}
-.cm-s-dark-map .cm-hr {color: #999;}
-.cm-s-dark-map .cm-link {color: #00c;}
-.cm-s-dark-map .cm-punc {color: #FFFFFF;}
-.cm-s-dark-map .cm-logical {color:#B271FF;}
-.cm-s-dark-map .cm-at {color:#72e47b;}
-.cm-s-dark-map .cm-prefixDelcAlias {color:#f8c4ffc0;}
-.cm-s-dark-map .cm-prefixDelcIRI {color:#f8c4ffc0;}
+.cm-s-darkMap .cm-keyword {color: #f00!important ;}
+.cm-s-darkMap .cm-atom {color: #219!important ;}
+.cm-s-darkMap .cm-number {color: #E5F439!important ;}
+.cm-s-darkMap .cm-def {color: #00f!important ;}
+.cm-s-darkMap .cm-variable,
+.cm-s-darkMap .cm-punctuation,
+.cm-s-darkMap .cm-property,
+.cm-s-darkMap .cm-operator {color: #05a!important ;}
+.cm-s-darkMap .cm-variable-2 {color: #68BEEB!important ;}
+.cm-s-darkMap .cm-variable-3 {color: #68BEEB!important ;}
+.cm-s-darkMap .cm-comment {color: #999!important ;}
+.cm-s-darkMap .cm-string {color: rgb(185, 128, 3)!important ;}
+.cm-s-darkMap .cm-string-2 {color: #7DB647!important ;}
+.cm-s-darkMap .cm-meta {color: #555!important ;}
+.cm-s-darkMap .cm-qualifier {color: #555!important ;}
+.cm-s-darkMap .cm-builtin {color: #30a!important ;}
+.cm-s-darkMap .cm-bracket {color: #997!important ;}
+.cm-s-darkMap .cm-tag {color: #170!important ;}
+.cm-s-darkMap .cm-attribute {color: #00c!important ;}
+.cm-s-darkMap .cm-hr {color: #999!important ;}
+.cm-s-darkMap .cm-link {color: #00c!important ;}
+.cm-s-darkMap .cm-punc {color: #FFFFFF!important ;}
+.cm-s-darkMap .cm-logical {color:#B271FF!important ;}
+.cm-s-darkMap .cm-at {color:#72e47b!important ;}
+.cm-s-darkMap .cm-prefixDelcAlias {color:#f8c4ffc0!important ;}
+.cm-s-darkMap .cm-prefixDelcIRI {color:#f8c4ffc0!important ;}
 
-.cm-s-dark-map .CodeMirror-cursor { border-left: 1px solid #A9B7C6; }  
-.cm-s-dark-map .CodeMirror-activeline-background { background: #323232; } 
-.cm-s-dark-map .CodeMirror-gutters { background: #313335; border-right: 1px solid #313335; } 
-.cm-s-dark-map .CodeMirror-guttermarker { color: #FFEE80; }  
-.cm-s-dark-map .CodeMirror-guttermarker-subtle { color: #D0D0D0; }  
-.cm-s-dark-map .CodeMirrir-linenumber { color: #606366; } 
-.cm-s-dark-map .CodeMirror-matchingbracket { background-color: #3B514D; color: #FFEF28 !important; font-weight: bold; } 
+.cm-s-darkMap .CodeMirror-cursor { border-left: 1px solid #A9B7C6; }  
+.cm-s-darkMap .CodeMirror-activeline-background { background: #323232; } 
+.cm-s-darkMap .CodeMirror-gutters { background: #313335; border-right: 1px solid #313335; } 
+.cm-s-darkMap .CodeMirror-guttermarker { color: #FFEE80; }  
+.cm-s-darkMap .CodeMirror-guttermarker-subtle { color: #D0D0D0; }  
+.cm-s-darkMap .CodeMirrir-linenumber { color: #606366; } 
+.cm-s-darkMap .CodeMirror-matchingbracket { background-color: #3B514D; color: #FFEF28 !important; font-weight: bold; } 
 
-.cm-s-dark-map div.CodeMirror-selected { background: #214283; }  
+.cm-s-darkMap div.CodeMirror-selected { background: #214283; }  
 
 .CodeMirror-hints.dark {
-  color: #9C9E9E;
+  color: #9C9E9E!important;
   background-color: #3B3E3F !important;
 }
 

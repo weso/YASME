@@ -1,7 +1,7 @@
 {
   "name": "yasme",
   "description": "Yet Another ShapeMap Editor",
-  "version": "1.0.4",
+  "version": "1.0.6",
   "main": "src/main.js",
   "license": "MIT",
   "author": "Pablo Menéndez",

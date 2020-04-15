@@ -16,7 +16,7 @@ YASME.defaults = $.extend(true, {}, YASME.defaults, {
   highlightSelectionMatches: {
     showToken: /\w/
   },
-  theme:"wiki-map",
+  theme:"wikiMap",
   tabMode: "indent",
   fontSize: 14, 
   lineNumbers: true,
