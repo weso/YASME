@@ -7,7 +7,7 @@
 var $ = require("jquery"), YASME = require("../main.js"), CodeMirror = require('codemirror');
 
 YASME.defaults = $.extend(true, {}, YASME.defaults, {
-  mode: "shex",
+  mode: "shapeMap",
 
   /**
 	 *  Default shape 

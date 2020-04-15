@@ -1,16 +1,15 @@
 {
   "name": "yasme",
-  "description": "Yet Another ShEx Editor",
-  "version": "1.0.0",
+  "description": "Yet Another ShapeMap Editor",
+  "version": "1.0.1",
   "main": "src/main.js",
   "license": "MIT",
   "author": "Pablo Menéndez",
-  "homepage": "http://www.weso.es/YASHE/",
+  "homepage": "http://www.weso.es/YASME/",
   "scripts": {
     "start": "gulp serve",
     "dev": "gulp serve",
     "build": "gulp",
-    "test": "gulp serve & $(npm bin)/cypress run",
     "patch": "gulp patch",
     "minor": "gulp minor",
     "major": "gulp major",
@@ -53,13 +52,15 @@
     "vinyl-transform": "^1.0.0",
     "watchify": "^3.7.0"
   },
-  "bugs": "https://github.com/weso/YASHE/issues/",
+  "bugs": "https://github.com/weso/YASME/issues/",
   "keywords": [
-    "JavaScript",
+    "ShapeMap",
     "ShEx",
     "Editor",
     "Semantic Web",
-    "Linked Data"
+    "Linked Data",
+    "JavaScript",
+    "CodeMirror"
   ],
   "maintainers": [
     {
@@ -70,7 +71,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/weso/YASHE.git"
+    "url": "https://github.com/weso/YASME.git"
   },
   "dependencies": {
     "axios": "^0.19.2",
