@@ -1,6 +1,6 @@
 /*
-ShEx grammar rules based on the Last Call Working Draft of 03/03/2017:
-  https://github.com/shexSpec/grammar/blob/shex2.1/bnf
+ShapeMAp grammar rules based on:
+  http://shex.io/shape-map/#grammar
 
 Be careful with grammar notation - it is EBNF in prolog syntax!
 [...] lists always represent sequence.
