@@ -15,7 +15,6 @@ const yutils = require('yasgui-utils');
 const prefixUtils = require('./utils/prefixUtils.js');
 const tokenUtils = require('./utils/tokenUtils.js');
 const syntaxUtils = require('./utils/syntaxUtils.js');
-const tooltipUtils = require('./utils/tooltipUtils.js');
 const formatUtils = require('./utils/formatUtils.js');
 const buttonsUtils = require('./utils/buttonsUtils.js');
 const prefixFold = require('./utils/prefixFold.js');
@@ -284,26 +283,6 @@ const postProcessCmElement = function(yasme) {
     checkSyntax(yasme);
   });
 
-  /**
-   * Fires when the editor is scrolled.
-   * In this case, YASME removes Wikidata Tooltip
-   */
-  yasme.on('scroll', function() {
-    tooltipUtils.removeWikiToolTip();
-  });
-
-
-  /**
-   * Wikidata Tooltip Listener
-   */
-  root.on( yasme.getWrapperElement(), 'mouseover',
-      tooltipUtils.debounce(function( e ) {
-        if(yasme.options.showTooltip){
-          tooltipUtils.removeWikiToolTip();
-          tooltipUtils.triggerTooltip(yasme, e);
-        }
-      }, 300)
-  );
 
 
   // on first load, check as well
@@ -364,15 +343,6 @@ root.autoComplete = function(yasme) {
   yasme.autocompleters.autoComplete(false);
 };
 
-// include the autocompleters we provide out-of-the-box
-root.registerAutocompleter('wikibase',
-    require('./autocompleters/wikibase.js'));
-
-root.registerAutocompleter('prefixDefinition',
-    require('./autocompleters/prefixDefinition.js'));
-
-root.registerAutocompleter('prefixesAndKeywords',
-    require('./autocompleters/prefixesAndKeywords.js'));
 
 
 /**
