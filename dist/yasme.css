@@ -50,16 +50,6 @@ div.CodeMirror span.CodeMirror-nonmatchingbracket {color: #f22;}
     color: #b98003; }
   .yasme .cm-s-wiki .cm-string-2 {
     color: #05a; }
-  .yasme .cm-s-wiki .cm-constraint {
-    color: #05a; }
-  .yasme .cm-s-wiki .cm-valueSet {
-    color: #05a; }
-  .yasme .cm-s-wiki .cm-constraintKeyword {
-    color: #f00; }
-  .yasme .cm-s-wiki .cm-facet {
-    color: #f00; }
-  .yasme .cm-s-wiki .cm-shapeRef {
-    color: #0F7A50; }
   .yasme .cm-s-wiki .cm-meta {
     color: #555; }
   .yasme .cm-s-wiki .cm-qualifier {
@@ -115,16 +105,6 @@ div.CodeMirror span.CodeMirror-nonmatchingbracket {color: #f22;}
     color: #b98003; }
   .yasme .cm-s-dark .cm-string-2 {
     color: #7DB647; }
-  .yasme .cm-s-dark .cm-constraint {
-    color: #7DB647; }
-  .yasme .cm-s-dark .cm-valueSet {
-    color: #7DB647; }
-  .yasme .cm-s-dark .cm-constraintKeyword {
-    color: #f00; }
-  .yasme .cm-s-dark .cm-facet {
-    color: #f00; }
-  .yasme .cm-s-dark .cm-shapeRef {
-    color: #68BEEB; }
   .yasme .cm-s-dark .cm-meta {
     color: #555; }
   .yasme .cm-s-dark .cm-qualifier {
@@ -146,7 +126,7 @@ div.CodeMirror span.CodeMirror-nonmatchingbracket {color: #f22;}
   .yasme .cm-s-dark .cm-logical {
     color: #B271FF; }
   .yasme .cm-s-dark .cm-at {
-    color: #68BEEB; }
+    color: #68eb7a; }
   .yasme .cm-s-dark .cm-prefixDelcAlias {
     color: #f8c4ffc0; }
   .yasme .cm-s-dark .cm-prefixDelcIRI {
