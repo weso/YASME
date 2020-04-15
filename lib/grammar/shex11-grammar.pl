@@ -20,17 +20,25 @@ stephen.cresswell@tso.co.uk
 
 
 %[1] OK
-shexDoC  ==> [, $ ].
+shexDoC  ==> [shapeAssociation,*(',',shapeAssociation),$].
 
 %[2] OK
+shapeAssociation ==>[nodeSelector,shapeLabel].
 
 %[3] OK
+nodeSelector ==>[objectTerm].
+nodeSelector ==>[triplePattern].
 
 %[4] OK
+subjectTerm ==>[iri].
+subjectTerm ==>['A_TOKEN'].
 
 %[5] OK
+objectTerm ==>[subjectTerm].
+objectTerm ==>[literal].
 
 %[6] OK
+triplePattern ==>[].
 
 %[7] OK
 
@@ -64,6 +72,7 @@ iri ==> [or('IRI_REF',prefixedName)].
 % tens defined by regular expressions elsewhere
 % RDF_TYPE ten now is harcoded in the rules
 tm_regex([
+'A_TOKEN',
 'REPEAT_RANGE',
 'IRI_REF',
 'INTEGER',
