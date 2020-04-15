@@ -44,7 +44,8 @@ triplePattern ==>[or([
 
 
 %[7] OK
-shapeLabel==>['@',or([or(iri,'START'),'AT_START'])].
+shapeLabel ==>['AT_START'].
+shapeLabel ==>['AT_IRI_REF'].
 
 %[13t] OK
 literal ==> [or(rdfLiteral,numericLiteral,booleanLiteral)].
@@ -93,14 +94,14 @@ tm_regex([
 'LANG_STRING_LITERAL_LONG1',
 'LANG_STRING_LITERAL_LONG2',
 'A_TOKEN',
-'AT_START'
+'AT_START',
+'AT_IRI_REF'
 ]).
 % Terminals where name of terminal is uppercased ten content
 tm_keywords([
 'FOCUS',
 'TRUE',
-'FALSE',
-'START'
+'FALSE'
 ]).
 
 % Other tens representing fixed, case sensitive, strings
@@ -115,6 +116,5 @@ tm_punct([
 ',' = '\\,',
 '{' = '\\{',
 '}' = '\\}',
-'_' = '\\_',
-'@' = '\\@'
+'_' = '\\_'
 ]).
