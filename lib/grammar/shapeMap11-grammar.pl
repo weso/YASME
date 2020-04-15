@@ -19,7 +19,7 @@ stephen.cresswell@tso.co.uk
 :-dynamic '==>'/2.
 
 %[1] OK
-shapeMap  ==> [shapeAssociation,*([',',shapeAssociation]),$].
+shapeMap  ==> [shapeAssociation,*([',',shapeAssociation]), $].
 
 %[2] OK
 shapeAssociation ==>[nodeSelector,shapeLabel].
