@@ -1,6 +1,5 @@
 "use strict";
-var $ = require("jquery"),
-    rdfUtils = require('./rdfUtils.js')
+var $ = require("jquery")
 
 /**
  * Write our own tooltip, to avoid loading another library for just this functionality. For now, we only use tooltip for showing parse errors, so this is quite a tailored solution
