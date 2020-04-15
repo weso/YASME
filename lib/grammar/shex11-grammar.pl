@@ -42,7 +42,7 @@ triplePattern ==>['{','FOCUS',iri,or(objectTerm,'_'),'}'].
 triplePattern ==>['{',or(subjectTerm,'_'),iri,'FOCUS','}'].
 
 %[7] OK
-
+shapeLabel==>['@',or([or(iri,'START'),AT_START])].
 
 %[13t] OK
 literal ==> [or(rdfLiteral,numericLiteral,booleanLiteral)].
@@ -54,7 +54,7 @@ numericLiteral ==>['DOUBLE'].
 
 
 %[65x] 
-rdfLiteral ==> [string,?(['^','^',iri])].
+rdfLiteral ==> [langString,?(['^','^',iri])].
 
 %[134s] OK
 booleanLiteral ==> [or('TRUE', 'FALSE')].
@@ -66,6 +66,11 @@ string ==> ['STRING_LITERAL_LONG1'].
 string ==> ['STRING_LITERAL2'].
 string ==> ['STRING_LITERAL_LONG2'].
 
+%[66x] 
+langString ==> ['LANG_STRING_LITERAL1'].
+langString ==> ['LANG_STRING_LITERAL_LONG1'].
+langString ==> ['LANG_STRING_LITERAL2'].
+langString ==> ['LANG_STRING_LITERAL_LONG2'].
 
 %[136s] OK
 iri ==> [or('IRI_REF',prefixedName)].
@@ -88,6 +93,7 @@ tm_regex([
 % Terminals where name of terminal is uppercased ten content
 tm_keywords([
 'FOCUS',
+'START',
 'TRUE',
 'FALSE',
 ]).
@@ -100,9 +106,9 @@ tm_keywords([
 % e.g. DOUBLE, DECIMAL, INTEGER
 % e.g. INTEGER_POSITIVE, PLUS
 tm_punct([
-
 '^' = '\\^',
 '{' = '\\{',
 '}' = '\\}',
 '_' = '\\_',
+'@' = '\\@',
 ]).
