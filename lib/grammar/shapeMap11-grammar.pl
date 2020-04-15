@@ -18,9 +18,8 @@ stephen.cresswell@tso.co.uk
 
 :-dynamic '==>'/2.
 
-
 %[1] OK
-shexDoC  ==> [shapeAssociation,*(',',shapeAssociation),$].
+shapeMap  ==> [shapeAssociation,*([',',shapeAssociation]),$].
 
 %[2] OK
 shapeAssociation ==>[nodeSelector,shapeLabel].
@@ -38,11 +37,14 @@ objectTerm ==>[subjectTerm].
 objectTerm ==>[literal].
 
 %[6] OK
-triplePattern ==>['{','FOCUS',iri,or(objectTerm,'_'),'}'].
-triplePattern ==>['{',or(subjectTerm,'_'),iri,'FOCUS','}'].
+triplePattern ==>[or([
+                    ['{','FOCUS',iri,or(objectTerm,'_'),'}'],
+                    ['{',or(subjectTerm,'_'),iri,'FOCUS','}']]  
+                  )].
+
 
 %[7] OK
-shapeLabel==>['@',or([or(iri,'START'),AT_START])].
+shapeLabel==>['@',or([or(iri,'START'),'AT_START'])].
 
 %[13t] OK
 literal ==> [or(rdfLiteral,numericLiteral,booleanLiteral)].
@@ -54,7 +56,7 @@ numericLiteral ==>['DOUBLE'].
 
 
 %[65x] 
-rdfLiteral ==> [langString,?(['^','^',iri])].
+rdfLiteral ==> [or(langString,string),?(['^','^',iri])].
 
 %[134s] OK
 booleanLiteral ==> [or('TRUE', 'FALSE')].
@@ -73,13 +75,11 @@ langString ==> ['LANG_STRING_LITERAL2'].
 langString ==> ['LANG_STRING_LITERAL_LONG2'].
 
 %[136s] OK
-iri ==> [or('IRI_REF',prefixedName)].
+iri ==> ['IRI_REF'].
 
 % tens defined by regular expressions elsewhere
 % RDF_TYPE ten now is harcoded in the rules
 tm_regex([
-'A_TOKEN',
-'REPEAT_RANGE',
 'IRI_REF',
 'INTEGER',
 'DECIMAL',
@@ -88,14 +88,19 @@ tm_regex([
 'STRING_LITERAL2',
 'STRING_LITERAL_LONG1',
 'STRING_LITERAL_LONG2',
+'LANG_STRING_LITERAL1',
+'LANG_STRING_LITERAL2',
+'LANG_STRING_LITERAL_LONG1',
+'LANG_STRING_LITERAL_LONG2',
+'A_TOKEN',
+'AT_START'
 ]).
-
 % Terminals where name of terminal is uppercased ten content
 tm_keywords([
 'FOCUS',
-'START',
 'TRUE',
 'FALSE',
+'START'
 ]).
 
 % Other tens representing fixed, case sensitive, strings
@@ -107,8 +112,9 @@ tm_keywords([
 % e.g. INTEGER_POSITIVE, PLUS
 tm_punct([
 '^' = '\\^',
+',' = '\\,',
 '{' = '\\{',
 '}' = '\\}',
 '_' = '\\_',
-'@' = '\\@',
+'@' = '\\@'
 ]).

@@ -1,9 +1,9 @@
 
-top_symbol(shexDoC).
+top_symbol(shapeMap).
 output_file('_tokenizer-table.js').
 
 js_vars([
-  startSymbol='"shapeMapDoC"',
+  startSymbol='"shapeMap"',
   acceptEmpty=true
 ]).
 
