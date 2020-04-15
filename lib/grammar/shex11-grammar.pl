@@ -38,7 +38,8 @@ objectTerm ==>[subjectTerm].
 objectTerm ==>[literal].
 
 %[6] OK
-triplePattern ==>[].
+triplePattern ==>['{','FOCUS',iri,or(objectTerm,'_'),'}'].
+triplePattern ==>['{',or(subjectTerm,'_'),iri,'FOCUS','}'].
 
 %[7] OK
 
@@ -86,8 +87,9 @@ tm_regex([
 
 % Terminals where name of terminal is uppercased ten content
 tm_keywords([
+'FOCUS',
 'TRUE',
-'FALSE'
+'FALSE',
 ]).
 
 % Other tens representing fixed, case sensitive, strings
@@ -99,5 +101,8 @@ tm_keywords([
 % e.g. INTEGER_POSITIVE, PLUS
 tm_punct([
 
-'^'= '\\^',
+'^' = '\\^',
+'{' = '\\{',
+'}' = '\\}',
+'_' = '\\_',
 ]).
