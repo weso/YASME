@@ -25,129 +25,128 @@ div.CodeMirror span.CodeMirror-nonmatchingbracket {color: #f22;}
   /* Used to force a border model for a node */
   /* See issue #2901 */
   /* Help users use markselection to safely style text background */ }
-  .yasme .cm-s-wiki .cm-keyword {
+  .yasme .cm-s-wiki-map .cm-keyword {
     color: #f00; }
-  .yasme .cm-s-wiki .cm-atom {
+  .yasme .cm-s-wiki-map .cm-atom {
     color: #219; }
-  .yasme .cm-s-wiki .cm-number {
+  .yasme .cm-s-wiki-map .cm-number {
     color: #085; }
-  .yasme .cm-s-wiki .cm-def {
+  .yasme .cm-s-wiki-map .cm-def {
     color: #00f; }
-  .yasme .cm-s-wiki .cm-variable,
-  .yasme .cm-s-default .cm-punctuation,
-  .yasme .cm-s-wiki .cm-property,
-  .yasme .cm-s-wiki .cm-operator {
+  .yasme .cm-s-wiki-map .cm-variable,
+  .yasme .cm-s-wiki-map .cm-property,
+  .yasme .cm-s-wiki-map .cm-operator {
     color: #05a; }
-  .yasme .cm-s-wiki .cm-variable-2 {
+  .yasme .cm-s-wiki-map .cm-variable-2 {
     color: #0F7A50; }
-  .yasme .cm-s-wiki .cm-variable-3 {
+  .yasme .cm-s-wiki-map .cm-variable-3 {
     color: #05a; }
-  .yasme .cm-s-wiki .cm-comment {
+  .yasme .cm-s-wiki-map .cm-comment {
     color: #999; }
   .yasme WS
-.cm-s-wiki .cm-string {
+.cm-s-wiki-map .cm-string {
     color: #b98003; }
-  .yasme .cm-s-wiki .cm-string-2 {
+  .yasme .cm-s-wiki-map .cm-string-2 {
     color: #05a; }
-  .yasme .cm-s-wiki .cm-meta {
+  .yasme .cm-s-wiki-map .cm-meta {
     color: #555; }
-  .yasme .cm-s-wiki .cm-qualifier {
+  .yasme .cm-s-wiki-map .cm-qualifier {
     color: #555; }
-  .yasme .cm-s-wiki .cm-builtin {
+  .yasme .cm-s-wiki-map .cm-builtin {
     color: #30a; }
-  .yasme .cm-s-wiki .cm-bracket {
+  .yasme .cm-s-wiki-map .cm-bracket {
     color: #997; }
-  .yasme .cm-s-wiki .cm-tag {
+  .yasme .cm-s-wiki-map .cm-tag {
     color: #170; }
-  .yasme .cm-s-wiki .cm-attribute {
+  .yasme .cm-s-wiki-map .cm-attribute {
     color: #00c; }
-  .yasme .cm-s-wiki .cm-hr {
+  .yasme .cm-s-wiki-map .cm-hr {
     color: #999; }
-  .yasme .cm-s-wiki .cm-link {
+  .yasme .cm-s-wiki-map .cm-link {
     color: #00c; }
-  .yasme .cm-s-wiki .cm-punc {
+  .yasme .cm-s-wiki-map .cm-punc {
     color: black; }
-  .yasme .cm-s-wiki .cm-logical {
+  .yasme .cm-s-wiki-map .cm-logical {
     color: #f00; }
-  .yasme .cm-s-wiki .cm-at {
+  .yasme .cm-s-wiki-map .cm-at {
     color: #0F7A50; }
-  .yasme .cm-s-wiki .cm-prefixDelcAlias {
+  .yasme .cm-s-wiki-map .cm-prefixDelcAlias {
     color: #6d0f7a; }
-  .yasme .cm-s-wiki .cm-prefixDelcIRI {
+  .yasme .cm-s-wiki-map .cm-prefixDelcIRI {
     color: #6d0f7a; }
-  .yasme .cm-s-dark.CodeMirror {
+  .yasme .cm-s-dark-map.CodeMirror {
     background: #2B2B2B;
     color: #A9B7C6;
     border: 10px; }
-  .yasme .cm-s-dark .cm-shape {
+  .yasme .cm-s-dark-map .cm-shape {
     color: #68BEEB; }
-  .yasme .cm-s-dark .cm-keyword {
+  .yasme .cm-s-dark-map .cm-keyword {
     color: #f00; }
-  .yasme .cm-s-dark .cm-atom {
+  .yasme .cm-s-dark-map .cm-atom {
     color: #219; }
-  .yasme .cm-s-dark .cm-number {
+  .yasme .cm-s-dark-map .cm-number {
     color: #E5F439; }
-  .yasme .cm-s-dark .cm-def {
+  .yasme .cm-s-dark-map .cm-def {
     color: #00f; }
-  .yasme .cm-s-dark .cm-variable,
-  .yasme .cm-s-dark .cm-punctuation,
-  .yasme .cm-s-dark .cm-property,
-  .yasme .cm-s-dark .cm-operator {
+  .yasme .cm-s-dark-map .cm-variable,
+  .yasme .cm-s-dark-map .cm-punctuation,
+  .yasme .cm-s-dark-map .cm-property,
+  .yasme .cm-s-dark-map .cm-operator {
     color: #05a; }
-  .yasme .cm-s-dark .cm-variable-2 {
+  .yasme .cm-s-dark-map .cm-variable-2 {
     color: #68BEEB; }
-  .yasme .cm-s-dark .cm-variable-3 {
+  .yasme .cm-s-dark-map .cm-variable-3 {
     color: #68BEEB; }
-  .yasme .cm-s-dark .cm-comment {
+  .yasme .cm-s-dark-map .cm-comment {
     color: #999; }
-  .yasme .cm-s-dark .cm-string {
+  .yasme .cm-s-dark-map .cm-string {
     color: #b98003; }
-  .yasme .cm-s-dark .cm-string-2 {
+  .yasme .cm-s-dark-map .cm-string-2 {
     color: #7DB647; }
-  .yasme .cm-s-dark .cm-meta {
+  .yasme .cm-s-dark-map .cm-meta {
     color: #555; }
-  .yasme .cm-s-dark .cm-qualifier {
+  .yasme .cm-s-dark-map .cm-qualifier {
     color: #555; }
-  .yasme .cm-s-dark .cm-builtin {
+  .yasme .cm-s-dark-map .cm-builtin {
     color: #30a; }
-  .yasme .cm-s-dark .cm-bracket {
+  .yasme .cm-s-dark-map .cm-bracket {
     color: #997; }
-  .yasme .cm-s-dark .cm-tag {
+  .yasme .cm-s-dark-map .cm-tag {
     color: #170; }
-  .yasme .cm-s-dark .cm-attribute {
+  .yasme .cm-s-dark-map .cm-attribute {
     color: #00c; }
-  .yasme .cm-s-dark .cm-hr {
+  .yasme .cm-s-dark-map .cm-hr {
     color: #999; }
-  .yasme .cm-s-dark .cm-link {
+  .yasme .cm-s-dark-map .cm-link {
     color: #00c; }
-  .yasme .cm-s-dark .cm-punc {
+  .yasme .cm-s-dark-map .cm-punc {
     color: #FFFFFF; }
-  .yasme .cm-s-dark .cm-logical {
+  .yasme .cm-s-dark-map .cm-logical {
     color: #B271FF; }
-  .yasme .cm-s-dark .cm-at {
-    color: #5ceb68; }
-  .yasme .cm-s-dark .cm-prefixDelcAlias {
+  .yasme .cm-s-dark-map .cm-at {
+    color: #72e47b; }
+  .yasme .cm-s-dark-map .cm-prefixDelcAlias {
     color: #f8c4ffc0; }
-  .yasme .cm-s-dark .cm-prefixDelcIRI {
+  .yasme .cm-s-dark-map .cm-prefixDelcIRI {
     color: #f8c4ffc0; }
-  .yasme .cm-s-dark .CodeMirror-cursor {
+  .yasme .cm-s-dark-map .CodeMirror-cursor {
     border-left: 1px solid #A9B7C6; }
-  .yasme .cm-s-dark .CodeMirror-activeline-background {
+  .yasme .cm-s-dark-map .CodeMirror-activeline-background {
     background: #323232; }
-  .yasme .cm-s-dark .CodeMirror-gutters {
+  .yasme .cm-s-dark-map .CodeMirror-gutters {
     background: #313335;
     border-right: 1px solid #313335; }
-  .yasme .cm-s-dark .CodeMirror-guttermarker {
+  .yasme .cm-s-dark-map .CodeMirror-guttermarker {
     color: #FFEE80; }
-  .yasme .cm-s-dark .CodeMirror-guttermarker-subtle {
+  .yasme .cm-s-dark-map .CodeMirror-guttermarker-subtle {
     color: #D0D0D0; }
-  .yasme .cm-s-dark .CodeMirrir-linenumber {
+  .yasme .cm-s-dark-map .CodeMirrir-linenumber {
     color: #606366; }
-  .yasme .cm-s-dark .CodeMirror-matchingbracket {
+  .yasme .cm-s-dark-map .CodeMirror-matchingbracket {
     background-color: #3B514D;
     color: #FFEF28 !important;
     font-weight: bold; }
-  .yasme .cm-s-dark div.CodeMirror-selected {
+  .yasme .cm-s-dark-map div.CodeMirror-selected {
     background: #214283; }
   .yasme .CodeMirror-hints.dark {
     color: #9C9E9E;

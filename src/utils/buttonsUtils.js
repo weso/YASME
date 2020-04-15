@@ -97,10 +97,10 @@ var drawButtons = function(yasme){
     .attr("title", 'Change the theme')
     .click(function() { 
       
-      var themeValue = 'wiki'
+      var themeValue = 'wiki-map'
       var color = 'black'
-      if(yasme.getOption('theme') == 'wiki'){
-        themeValue='dark'
+      if(yasme.getOption('theme') == 'wiki-map'){
+        themeValue='dark-map'
         color = 'white'
       }
       
